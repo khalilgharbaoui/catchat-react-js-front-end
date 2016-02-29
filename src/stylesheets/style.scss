@@ -1,0 +1,45 @@
+
+body {background-color:#374046 !important; margin:0px;}
+ul {list-style-type:none;
+padding-left: 0}
+
+.miauw {
+
+
+word-wrap: break-word;
+padding: 10px 20px;
+border-bottom: 1px solid #DADADA;
+list-style: none;
+background-color: #fff;
+-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16);
+box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16);
+margin-top: 10px;
+border-radius: 7px;
+
+}
+.container{padding-bottom: 96px !important;}
+
+.shadow {color: rgba(0,0,0,0.84);}
+.butty{width: 33% !important; float: right !important;}
+.inny{width: 65% !important;}
+
+
+@media (max-width: 991px) {
+	.butty{width: 100% !important; float: right !important;}
+	.inny{width: 100% !important;margin-bottom: 5px !important;}
+	#stickyFooter {	height: 96px !important; padding-top: 8px !important;}
+}
+
+
+#stickyFooter {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	overflow: visible;
+	z-index: 99;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #FF9800;
+	-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16);
+box-shadow: 0 3px 10px rgba(0,0,0,0.23),0 3px 10px rgba(0,0,0,0.16);
+	height: 45px;}
