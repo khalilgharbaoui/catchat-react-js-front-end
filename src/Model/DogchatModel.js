@@ -1,7 +1,7 @@
 import BaseModel from './BaseModel';
 class DogchatModel extends BaseModel {
   defaults() {
-    return {miauw: "New Dogchat"};
+    return {woef: "New Dogchat"};
   }
   constructor() {
     super('dogchat');

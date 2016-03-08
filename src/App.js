@@ -1,9 +1,13 @@
+import './stylesheets/style.scss';
+import './stylesheets/_bootstrap.scss';
 import React from 'react';
 import CatchatModel from './Model/CatchatModel';
 import CatchatForm from './components/CatchatForm';
 import CatchatList from './components/CatchatList';
-import './stylesheets/style.scss';
-import './stylesheets/_bootstrap.scss';
+
+
+
+
 
 class App extends React.Component {
   constructor() {
@@ -13,6 +17,7 @@ class App extends React.Component {
   }
 
   render() {
+
     return (
       <div>
         <div className="container">
