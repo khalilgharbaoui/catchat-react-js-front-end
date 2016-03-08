@@ -1,4 +1,4 @@
-# CatChat!
+# CatChat! Front-end
 
 ## A ReactJS + FeathersJS + SocketIO + MongoDB Chat Application. 
 
