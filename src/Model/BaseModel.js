@@ -3,11 +3,11 @@ import Feathers from 'feathers-client';
 import Utils from '../lib/Utils';
 
 // const API_HOST = "http://localhost:3030";
-const API_HOST = "http://catchat-back-end.bitbaloon.com";
+const API_HOST = "https://catchat-back-end.herokuapp.com:80";
 
 class BaseModel {
   defaults() { return {}; }
-
+	
   constructor(resource_name, host = API_HOST) {
     this.utils = new Utils();
     console.log(resource_name);
